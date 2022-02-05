@@ -8,11 +8,12 @@ body {
   font-family: "Lato", "sans-serif";
   background-color: #333;
   overflow-x: hidden;
+  color: #fff;
   margin: 0;
 }
 
 .container {
-  background-color: #fafafa;
+  background-color: #000;
   transform-origin: top left;
   transition: transform 0.5s linear;
   width: 100vw;
@@ -31,7 +32,7 @@ body {
 }
 
 .circle {
-  background-color: #ff7979;
+  background-color: #ff3131;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -105,8 +106,8 @@ nav ul li + li {
 }
 
 nav ul li + li + li {
-  margin-left: 15px;
-  transform: translateX(_200%);
+  margin-left: 30px;
+  transform: translateX(-200%);
 }
 
 nav a {
@@ -116,12 +117,13 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff7979;
+  color: #ff3131;
   font-weight: bold;
 }
 
 .content img {
   max-width: 100%;
+  border-radius: 5em;
 }
 
 .content {
@@ -131,14 +133,18 @@ nav a:hover {
 
 .content h1 {
   margin: 0;
+  font-weight: bold;
 }
 
 .content small {
   color: #555;
   font-style: italic;
 }
+.content h3 {
+  color: #ff3131;
+}
 
 .content p {
-  color: #333;
+  color: #fff;
   line-height: 1.5;
 }
